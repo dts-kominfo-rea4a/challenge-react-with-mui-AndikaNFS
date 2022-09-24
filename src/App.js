@@ -6,8 +6,6 @@ import Header from './components/Header';
 import { Grid, Box, List } from '@mui/material';
 
 import contactsJSON from './data/contacts.json';
-// Uncomment untuk memuat daftar kontak
-// import contactsJSON from './data/contacts.json';
 const App = () => {
   // Masukkan Header dan lakukan map untuk Contact ke dalam div App
   // untuk membuat daftar kontak bisa menggunakan MUI list
