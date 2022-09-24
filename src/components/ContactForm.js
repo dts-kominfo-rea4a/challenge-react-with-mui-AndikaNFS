@@ -11,7 +11,6 @@ const ContactForm = (props) => {
     const [inputData, setInputData] = useState({name:'', phone:'', email:'', photo:''});
     
     const inputOnChangeHandler = (event) => {
-        // setInputData(event.target.value;
         const target = event.target;
         const value = target.value;
         const name = target.name;
