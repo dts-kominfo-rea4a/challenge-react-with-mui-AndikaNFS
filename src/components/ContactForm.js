@@ -18,8 +18,8 @@ const ContactForm = (props) => {
     };
 
     const formOnSubmitHandler = (event) => {
-        event.preventDefault(); // nanti ditambah lagi
-        props.fnAddContacts(inputData); // kosongkan lagi input
+        event.preventDefault();
+        props.fnAddContacts(inputData); 
         setInputData(inputData);
     };
 

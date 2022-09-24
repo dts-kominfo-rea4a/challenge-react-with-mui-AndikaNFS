@@ -2,8 +2,6 @@
 // Contact component dapat berupa MUI ListItem
 // https://mui.com/material-ui/react-list/#folder-list
 import React from 'react';
-// import ContactForm from './ContactForm';
-// import Header from './Header';
 import { List, ListItem, ListItemText, Divider, ListItemAvatar, Avatar, } from "@mui/material";
 
 
